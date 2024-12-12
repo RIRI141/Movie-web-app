@@ -45,11 +45,30 @@
   text-align: center;
   margin: 2rem 20px;
 }
+.top-title h2 {
+  font-weight: 800;
+}
 
 #showtoday {
   font-size: 14px;
   margin: 0 0 0 20px;
   color: #969696;
+}
+
+.containeranime {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.tx1 {
+  font-size: 9rem;
+  font-weight: 800;
+  margin-top: 0;
+  display: inline-block;
+}
+
+.logo {
+  text-align: center;
 }
 
 .overlay {
@@ -223,7 +242,7 @@ body.dark-mode .container2 {
 
 .title2 {
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 

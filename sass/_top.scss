@@ -38,9 +38,25 @@
 .top-title {
   text-align: center;
   margin: 2rem 20px;
+  h2{
+    font-weight: 800;
+  }
 }
 #showtoday {
   font-size: 14px;
   margin: 0 0 0 20px;
   color: #969696;
+}
+.containeranime {
+  max-height:100vh ;
+  overflow: hidden;
+}
+.tx1 {
+  font-size: 9rem;
+  font-weight: 800;
+  margin-top: 0;
+  display: inline-block;
+}
+.logo{
+  text-align: center;
 }
