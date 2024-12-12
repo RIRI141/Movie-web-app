@@ -1,10 +1,10 @@
-const apiKey = config.apikey;
+const MOVIE_API_KEY = config.apikey;
 
 const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: `Bearer ${apiKey}`,
+    Authorization: `Bearer ${MOVIE_API_KEY}`,
   },
 };
 
