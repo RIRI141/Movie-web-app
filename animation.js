@@ -7,15 +7,18 @@ const line1Tl = gsap.timeline({
     scrub: true,
     pin: true,
     toggleActions: "play none none none",
-    // markers: true,
+    markers: true,
   },
 });
 line1Tl
-  .from(".tx1", {
-    x: "100vw",
-    duration: 10,
-    // stagger: 4,
-  })
+  .from(
+    ".tx1",
+    {
+      x: "100vw",
+      duration: 15,
+    },
+    "<"
+  )
   .to(
     ".containeranime",
     {
@@ -25,31 +28,18 @@ line1Tl
     },
     "<"
   )
-  //   .from(
-  //     ".tx2",
-  //     {
-  //       x: "100vw",
-  //       duration: 1,
-  //     },
-  //     "<"
-  //   )
   .to(".tx1", {
     x: "-100vw",
-    duration: 10,
+    duration: 15,
     opacity: 0,
     delay: 5,
   })
-
-  //   .from(".logo", {
-  //     y: "100vh",
-  //     opacity: 0,
-  //   })
   .to(
     ".logo",
     {
       y: "-90vh",
       opacity: "100%",
-      duration: 10,
+      duration: 15,
     },
     "-=9"
   )
