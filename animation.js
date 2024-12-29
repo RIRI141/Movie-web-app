@@ -7,7 +7,6 @@ const line1Tl = gsap.timeline({
     scrub: true,
     pin: true,
     toggleActions: "play none none none",
-    markers: true,
   },
 });
 line1Tl
